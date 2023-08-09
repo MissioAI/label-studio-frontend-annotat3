@@ -6,6 +6,10 @@ import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 
+import { Button } from "@/components/ui/button"
+// import { ConnectButton } from '@rainbow-me/rainbowkit';
+
+
 export function SiteHeader() {
   return (
     <header className="bg-background sticky top-0 z-40 w-full border-b">
@@ -44,6 +48,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <ThemeToggle />
+            {/* <ConnectButton /> */}
           </nav>
         </div>
       </div>
